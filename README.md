@@ -30,7 +30,7 @@ resource "gitlab_pipeline_schedule" "scheduler" {
   cron        = "0 1 * * *"
 }
 ```
-The _project_ parameter refers to the `GitLab` repository ID. To find out the ID of a `GitLab` repository, navigate to the *settings* of the repository and choose the *general* section.
+The *project* parameter refers to the `GitLab` repository ID. To find out the ID of a `GitLab` repository, navigate to the *settings* of the repository and choose the *general* section.
 
 ## Usage
 
