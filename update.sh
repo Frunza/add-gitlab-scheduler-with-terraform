@@ -4,4 +4,4 @@
 set -e
 
 docker build -t gitlabterraformcontainer .
-docker-compose run --rm update
+docker compose run --rm update
